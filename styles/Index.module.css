@@ -1,0 +1,36 @@
+.container {
+  width: 50vw;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+.title {
+  width: 15rem;
+  height: 3rem;
+  background: transparent url('/klaraworks.svg') no-repeat
+}
+
+.title > span {
+  display: none;
+}
+
+.section {
+    padding-left: 0.7rem;
+    border-color: var(--pink);
+    border-style: solid;
+    border-width: 0 0 0 5px;
+}
+
+.profile {
+  padding-top: 1rem;
+}
+
+.profile td {
+    padding: 0.3rem;
+}
+
+@media screen and (max-width: 480px) {
+    .profile td {
+        padding: 0.5rem;
+    }
+}
